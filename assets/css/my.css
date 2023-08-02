@@ -1,0 +1,107 @@
+
+/*style for academics pages*/
+ @media only screen
+    and (min-device-width : 480px)
+    and (max-device-width : 768px) {
+      .hello{
+        float: center;
+      }
+    }
+    /*style for nav bar*/
+    @media only screen
+    and (min-device-width : 320px)
+    and (max-device-width : 480px) {
+      .logo2{
+        display: none;
+      }
+    }
+    /*index page image footer*/
+    /* @media only screen
+    and (min-device-width : 320px)
+    and (max-device-width : 480px) {
+      .logo{
+        display: none;
+      }
+    }*/
+    /*index page image footer*/
+  
+.H1{
+	background-image: linear-gradient(darkgreen,forestgreen,darkgreen);
+	
+}
+
+.hello{
+	padding: 3px;
+	border: 4px solid black;
+	color: darkgreen;
+}
+/*for the buttons in list*/
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+/*//for button*/
+/*for list*/
+.L1:hover{
+  background-color: lightgreen;
+}
+/*for table*/
+table,tr,td,th{
+  border: 1px solid black;
+  
+}
+/*for body*/
+body,head{
+  font-family: serif;
+}
+/*for shadow on academic page*/
+.b1 {
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px 8px #888888;
+}
+.b2 {
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px #888888;
+}
+/*for all p,li text*/
+.p1{
+  font-size: 20px;
+}
+/*for button*/
+.b3{
+  font-size: 30px;
+}
+/*for sub heading*/
+.b4{
+    font-size: 35px;
+}
+.T1{
+    width: 700px;
+    height: 500px;
+}
+.b5{
+  border-radius: 20px;
+}
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #16181b;
+    text-decoration: none;
+    background-color:#77bb77;}
